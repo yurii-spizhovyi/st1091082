@@ -36,9 +36,6 @@ AddCustomer "Mike", "Doyle", "Main", "London", "ON", "N6P1A7"
 ''Valid input - 4
 AddCustomer "Anna", "Doyle", "Main", "London", "ON", "N6P1A7"
 
-''Valid input - 5
-AddCustomer "Marianna", "Doyle", "Main", "London", "ON", "N6P1A7"
-
 ''Invalid input - missing First Name
 'AddCustomer "", "Doyle", "Main", "London", "ON", "N6P1A7"
 
