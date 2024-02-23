@@ -22,8 +22,19 @@
 
 '' 08/23/2023  rw	Created for LoanApp 2.1
 
-''Valid input
+''Valid input - 1
 AddCustomer "Arthur", "Doyle", "Main", "London", "ON", "N6P1A7"
+
+
+''Valid input - 2
+AddCustomer "Joe", "Doyle", "Main", "London", "ON", "N6P1A7"
+
+
+''Valid input - 3
+AddCustomer "Mike", "Doyle", "Main", "London", "ON", "N6P1A7"
+
+''Valid input - 4
+AddCustomer "Anna", "Doyle", "Main", "London", "ON", "N6P1A7"
 
 ''Invalid input - missing First Name
 'AddCustomer "", "Doyle", "Main", "London", "ON", "N6P1A7"
