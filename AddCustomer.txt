@@ -1,0 +1,32 @@
+'*****************************************************************************
+
+'' ABC Automated Testing
+'' Copyright (c) 2023 ABC
+'' All Rights Reserved Worldwide
+'' Unauthorized Duplication or Distribution Prohibited
+'' *****************************************************************************
+'' FILENAME: addcustomer3
+'' *****************************************************************************
+'' ABOUT THIS FILE 
+
+'' AUTHOR IDENTITY:
+
+'' Initials						Name/Company
+'' --------		 				-----------------------------------------
+'' rw 							Yurii Spizhovyi ABC INC
+
+'' REVISION HISTORY:
+
+'' Date/Initials	 	Comments
+'' ---------					-------------------------------
+
+'' 08/23/2023  rw	Created for LoanApp 2.1
+
+''Valid input
+AddCustomer "Arthur", "Doyle", "Main", "London", "ON", "N6P1A7"
+
+''Invalid input - missing First Name
+'AddCustomer "", "Doyle", "Main", "London", "ON", "N6P1A7"
+
+''Invalid input - missing Last Name
+'AddCustomer "Arthur", "", "Main", "London", "ON", "N6P1A7"
